@@ -4,6 +4,7 @@ import { themeColors } from '../theme'
 import { useNavigation } from '@react-navigation/native'
 const {width, height} = Dimensions.get('window');
 const ios = Platform.OS == 'ios';
+
 export default function CoffeeCard({item}) {
   const navigation = useNavigation();
   return (
